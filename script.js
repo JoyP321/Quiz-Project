@@ -1,5 +1,6 @@
 $(document).ready(function(){	
 	var num = 0;
+	
 	$("#question").click(function(){
 		$("#q" + num).hide();
 		$("#a" + num).hide();
@@ -10,5 +11,7 @@ $(document).ready(function(){
 	$("#answer").click(function(){	
 		$("#a" + num).show();
 	});
+	
+	
 	
 });

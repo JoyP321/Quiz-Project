@@ -1,9 +1,15 @@
 h1{
 	text-align: center;
+	background-color: #7ddb78;
+	padding: 20px;
+	border-radius: 10px;
 }
 
 h2{
 	text-align: center;
+	background-color: #7ddb78;
+	padding: 15px;
+	border-radius: 10px;
 }
 
 h3{
@@ -14,7 +20,29 @@ p{
 	display:none;
 }
 
-.button{
-	display: inline-block;
+#answer{
+	background-color: #7ddb78; 
+	border: none;
+	padding: 15px 25px;
 	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#question{
+	background-color: #7ddb78; 
+	border: none;
+	padding: 15px 25px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+body{
+	background-color: #e3fcff;
+	color: #000000;
 }
