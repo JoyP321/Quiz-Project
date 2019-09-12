@@ -20,7 +20,7 @@ p{
 	display:none;
 }
 
-#answer{
+button{
 	background-color: #7ddb78; 
 	border: none;
 	padding: 15px 25px;
@@ -31,16 +31,6 @@ p{
 	font-family: "Times New Roman", Times, serif;
 }
 
-#question{
-	background-color: #7ddb78; 
-	border: none;
-	padding: 15px 25px;
-	text-align: center;
-	display: inline-block;
-	font-size: 16px;
-	border-radius: 10px;
-	font-family: "Times New Roman", Times, serif;
-}
 
 body{
 	background-color: #e3fcff;

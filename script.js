@@ -4,6 +4,10 @@ $(document).ready(function(){
 	$("#question").click(function(){
 		$("#q" + num).hide();
 		$("#a" + num).hide();
+		if(num == 4)
+		{
+			num=0;
+		}
 		num = num +1;
 		$("#q" + num).show();
 	});	
@@ -11,7 +15,10 @@ $(document).ready(function(){
 	$("#answer").click(function(){	
 		$("#a" + num).show();
 	});
-	
-	
-	
+		
+	$("#restart").click(function(){	
+		$("#q" + num).hide();
+		$("#a" + num).hide();
+		num = 0;	
+	});
 });
