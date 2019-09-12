@@ -1,29 +1,14 @@
 $(document).ready(function(){	
+	var num = 0;
 	$("#question").click(function(){
-		$("#q1").show();
-		$("#answer").click(function(){
-			$("#a1").show();
-		});
-		$("#question").click(function(){
-			
-			$("#q1").hide();
-			$("#q2").show();
-			$("#answer").click(function(){
-				$("#a2").show();
-			});
-			
-			$("#question").click(function(){
-				
-				$("#q2").hide();
-				$("#q3").show();
-				$("#question").click(function(){
-					$("#q3").hide();
-					$("#q4").show();
-				});
-			});
-		});
+		$("#q" + num).hide();
+		$("#a" + num).hide();
+		num = num +1;
+		$("#q" + num).show();
+	});	
+	
+	$("#answer").click(function(){	
+		$("#a" + num).show();
 	});
-	
-	
 	
 });
