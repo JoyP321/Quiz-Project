@@ -12,7 +12,7 @@ $(document).ready(function(){
 		$("#q" + num).show();
 	});	
 	
-	$("#answer").click(function(){	
+	$("#answer").click(function(){
 		$("#a" + num).show();
 	});
 		

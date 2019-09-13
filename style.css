@@ -21,9 +21,9 @@ p{
 }
 
 img{
-	width:50%;
-	padding-left: 25%;
-	padding-right: 25%;
+	width:40%;
+	padding-left: 30%;
+	padding-right: 30%;
 	display:block;
 	margin: auto;
 }
@@ -44,3 +44,11 @@ body{
 	background-color: #e3fcff;
 	color: #000000;
 }
+
+button:hover{
+	background-color: #71c96d;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+button:focus {outline:0;}
