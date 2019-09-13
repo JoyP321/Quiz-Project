@@ -12,6 +12,7 @@ h2{
 	border-radius: 10px;
 }
 
+
 h3{
 	display:none;
 }
@@ -51,4 +52,6 @@ button:hover{
 
 }
 
-button:focus {outline:0;}
+button:focus{
+	outline:0;
+}
